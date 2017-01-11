@@ -1,0 +1,14 @@
+#page{
+  height: 700px;
+}
+
+body{
+    font-family: "Helvetica", "Arial", "san-serif";
+}
+
+#result li,
+#total{
+  border-radius: 10px;
+  border: 2px solid black;
+  font-size: 25px;
+}

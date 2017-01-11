@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Rack Math</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper teal lighten-1">
+        <a href="index.html" class="brand-logo left"><img class="responsive-img" id="logo" src="images/Rockulator_logo_white.png"/></a>
+        </div>
+      </nav>
+
+
+    <div class="row" id="page">
+      <h2 class='center'>Rack up, Bro!!!</h2>
+      <div class='col offset-m3 s12 m6'>
+        <ul class="collapsible popout" data-collapsible="accordion">
+          <li>
+            <div id="add" class="collapsible-header waves-light light-blue lighten-3">Enter Weight</div>
+            <div class="collapsible-body col m12">
+              <div id="total"></div>
+              <br/>
+        			<div id="numbers">
+        				<a class="btn col s4">1</a>
+        				<a class="btn col s4">2</a>
+        				<a class="btn col s4">3</a>
+        				<a class="btn col s4">4</a>
+        				<a class="btn col s4">5</a>
+        				<a class="btn col s4">6</a>
+        				<a class="btn col s4">7</a>
+        				<a class="btn col s4">8</a>
+        				<a class="btn col s4">9</a>
+        				<a class="btn col s4" id="reset">Reset</a>
+        				<a class="btn col s4">0</a>
+        				<a class="btn col s4" id="run">Start</a>
+        			</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <br/>
+
+      <div class="offset-s4 col s5">
+        <br/>
+        <h5>Plates (lbs) for each side of barbell:</h5>
+	      <ul id="result" class="center col s10">
+        </ul>
+	    </div>
+    </div>
+
+
+    <footer class="page-footer teal lighten-1">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Rack Calculator</h5>
+                <h6 class="white-text">© 2016</h6>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="https://github.com/willamzv" target="_blank">Will Zavala</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://github.com/BryanHolbrook" target="_blank">Bryan Holbrook</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://github.com/a-roh" target="_blank">Amy Rohman</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://github.com/kenyonmanu" target="_blank">Kenyan Manu</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            </div>
+          </div>
+  </footer>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <script src="./script/script.js"></script>
+
+  </body>
+</html>
